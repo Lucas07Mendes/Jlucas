@@ -24,11 +24,11 @@
             <tbody>
                 <c:forEach var="plataforma" items="${plataformas}">
                     <tr>
-                        <td>${plataforma.id}</td>
-                        <td>${plataforma.nome}</td>
+                        <td>${item.id}</td>
+                        <td>${item.nome}</td>
                         <td>
-                            <a href="/plataforma/update?id=${plataforma.id}" class="btn btn-info">Editar</a>
-                            <a href="/plataforma/delete?id=${plataforma.id}" class="btn btn-danger">Remover</a>
+                            <a href="/plataforma/update?id=${item.id}" class="btn btn-info">Editar</a>
+                            <a href="/plataforma/delete?id=${item.id}" class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>
                 </c:forEach>

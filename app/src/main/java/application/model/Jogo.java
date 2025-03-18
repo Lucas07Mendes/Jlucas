@@ -2,7 +2,6 @@ package application.model;
 
 import java.util.HashSet;
 import java.util.Set;
-import application.model.Categoria;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

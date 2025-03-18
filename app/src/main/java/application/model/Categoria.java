@@ -1,5 +1,4 @@
 package application.model;
-import application.model.Jogo;
 import java.util.HashSet;
 import java.util.Set;
 
