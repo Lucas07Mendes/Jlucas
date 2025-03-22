@@ -38,7 +38,7 @@
 
 <div class="form-group">
                 
-            <label for="plataforma">Plataformas</label>
+            <label for="plataforma">Plataforma</label>
             <c:forEach var="p" items="${plataformas}">
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" ${jogo.plataformas.contains(p) ? "checked" : ""}
@@ -49,7 +49,7 @@
         <br/>
         
         <button type="submit">Atualizar</button>
-        <a href="/jogos/list">Cancelar</a>
+        <a href="/jogo/list">Cancelar</a>
     </form>
 </body>
 </html>

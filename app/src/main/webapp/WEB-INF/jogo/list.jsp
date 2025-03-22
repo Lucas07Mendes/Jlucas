@@ -12,6 +12,7 @@
     <div class="container">
         <h1>Jogos</h1>
         <a href="/jogo/insert" class="btn btn-primary">Novo Jogo</a>
+        <a class="nav-link" href="/">Menu Principal</a>
         
         <table class="table">
             <thead>
@@ -24,7 +25,7 @@
                 </tr>
             </thead>
             <tbody>
-                <c:forEach var="jogo" items="${jogos}">
+                <c:forEach var="item" items="${jogos}">
                     <tr>
                         <td>${jogo.id}</td>
                         <td>${jogo.titulo}</td>
